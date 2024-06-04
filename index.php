@@ -6,7 +6,7 @@ $ipLogger = new IPLogger();
 $ipLogger->logVisitorInfo();
 
 class Router {
-    private $base_url = '/portfolio';
+    private $base_url = '';
     private $routes = [
         '/' => ['controller' => 'MejalSecController', 'method' => 'mejalsec'],
         '/index' => ['controller' => 'MejalSecController', 'method' => 'mejalsec'],
